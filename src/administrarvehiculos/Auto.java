@@ -11,7 +11,7 @@ package administrarvehiculos;
  */
 public class Auto extends Vehiculo{
     
-    protected int cantPasajeros;
+    private int cantPasajeros;
     private String tipoDeVehiculo; 
 
     public Auto(String tipoDeVehiculo,int cantPasajeros, int numeroSerie, String marca, int año, double precio) {

@@ -14,7 +14,7 @@ import jdk.nashorn.internal.ir.BreakNode;
  * @author alejandrosebastian
  */
 public class AdministrarVehiculos {
-    ArrayList <Vehiculo>vehiculos;
+    private ArrayList <Vehiculo>vehiculos;
     
     public AdministrarVehiculos() {
         vehiculos = new ArrayList<>();
