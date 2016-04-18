@@ -36,6 +36,7 @@ public static void main(String[] args) {
                 +"\n0. Para cerrar el programa.");
                 
                 eleccion = Integer.parseInt(leer.next());
+                eleccion2 = true;
             } catch (Exception e1) {
                 System.err.println("Por favor ingrese una opcion valida.");
                 eleccion2 = false;
